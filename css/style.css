@@ -1,0 +1,74 @@
+body{   /* aqui é a modificação do corpo*/
+    text-align:center;/*texto no meio*/
+    font-family:Open Sans, sans-serif;/*fontes usados, caso a primeira não seja compativel, vai usar a segunda */
+    background-color:#8A71C9;/*cor de fundo*/
+    color:#ffffff;/*cor das letras*/
+    margin: 0;/*margem da página 0, porque o padrão é 8, aí na hora sempre iria ficar um pouco de margem ainda*/
+}
+h1{
+    font-size: 60px;/*tamanho da fonte*/
+    font-weight: 300;/*grossura da fonte*/
+}
+h2{
+    color: #2A0074;
+    font-size:40px;
+}
+h3{
+    font-size:22px;
+    font-style:italic;/*estilo da fonte de todos o h3*/
+}
+.titulo-verde{/*aqui está a classe do html, no h3 para mudar somente uma delas, aí cada uma tem uma classe*/
+    color:#04ff9f;
+}
+.titulo-rosa{
+    color: #FF9E9E;
+}
+.titulo-amarelo{
+    color: #ffe36d;
+}
+section{
+    width:60%;/*lagura maxima das section*/
+    margin: 0 auto; /*margem autómatica*/
+}
+section section{
+    width: 100%;
+}
+p{
+    font-size:20px;
+    line-height:1,5;/*altura das linhas*/
+}
+img{
+    width:100%;/*largura*/
+}
+ul{
+    list-style-type:none;/*para tirar as bolinhas*/
+     line-height: 2;
+     padding-left: 0; /*para tirar o preenchimento qye vem já do programa*/
+}
+a{
+    text-decoration: none;/*para tirar o sublinhado*/
+    color: #99ffff;
+    font-weight:700;
+}
+.principal{/*a classe que criamos lá no nav,*/
+    background-color:#FF6CB5;
+    height: 40px;
+    max-width: 60%;/*para tamanho da navegação*/
+    margin: 0 auto /*o zero de margem para cima e para baixo, e o auto para os lados*/;
+}
+.principal a{/*a classe que criamos lá no nav, só modifica o que tem dentro do a*/
+    text-decoration:underline;/*colocar sublinhado*/ 
+    color:  #FFF;
+    font-weight: normal; 
+}
+.principal li{
+    display: inline-block;/*Para deixar um ao lado do outro*/
+    line-height: 2.5;
+    margin: 0 89px;/*espaçamento aos lasdos*/
+}
+button{
+    background-color: #41f341;
+    border: 1px solid transparent;
+    padding: 20px 30px;
+    border-radius: 3px;
+}
