@@ -1,7 +1,7 @@
 body{   /* aqui é a modificação do corpo*/
     text-align:center;/*texto no meio*/
     font-family:Open Sans, sans-serif;/*fontes usados, caso a primeira não seja compativel, vai usar a segunda */
-    background-color:blue;/*cor de fundo*/
+    background-color:#8A71C9;/*cor de fundo*/
     color:#ffffff;/*cor das letras*/
     margin: 0;/*margem da página 0, porque o padrão é 8, aí na hora sempre iria ficar um pouco de margem ainda*/
 }
